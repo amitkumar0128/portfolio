@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Amitkumar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen bg-gray-100 text-gray-800 font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="flex items-center justify-between px-6 py-4 shadow-md bg-white">
+    <div class="flex items-center space-x-3">
+      <img src="assets/images/profile.jpg" alt="Profile" class="w-10 h-10 rounded-full">
+      <span class="text-xl font-bold text-blue-600">Amitkumar</span>
+    </div>
+    <ul class="flex space-x-6 text-sm font-medium">
+      <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+      <li><a href="about.html" class="hover:text-blue-600">About</a></li>
+      <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="flex-1 px-6 py-10">
+    <section class="max-w-6xl mx-auto px-4 py-12">
+      <h2 class="text-3xl font-bold mb-8 text-center">🚀 My Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Project Card -->
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">🐞 Bug Tracker Lite</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            A Django web app to manage software bugs with authentication, role assignments, filtering, and clean UI.
+          </p>
+          <a href="https://github.com/amitkumar0128/bugtracker" class="text-blue-600 font-medium hover:underline">View
+            on GitHub →</a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">🤖 CloudMate Telegram Bot</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            A Telegram bot for cloud engineers — triggers CI/CD workflows, checks service health, and handles Prometheus
+            alerts.
+          </p>
+          <a href="https://github.com/amitkumar0128/cloudmate" class="text-blue-600 font-medium hover:underline">View on
+            GitHub →</a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">🔐 Whistle: Reporting Platform</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            Anonymous corruption-reporting platform built in Django with file encryption, metadata security, and clean
+            backend architecture.
+          </p>
+          <a href="#" class="text-blue-600 font-medium hover:underline">Private (Coming Soon)</a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">🖥️ Linux Mini Projects</h3>
+          <p class="text-sm text-gray-700 mb-4">
+            A collection of practical bash tools: disk alerts, user manager, auto backup, log analyzer, server health
+            monitor, and more.
+          </p>
+          <a href="https://github.com/amitkumar0128/Linux-Projects"
+            class="text-blue-600 font-medium hover:underline">View on GitHub →</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (STICKY TO BOTTOM) -->
+  <footer class="bg-gray-100 text-center py-4 border-t mt-auto">
+    <p class="text-sm text-gray-500">© 2025 Amitkumar. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

@@ -4,9 +4,9 @@ This is a **personal portfolio website** built using **HTML** and **Tailwind CSS
 
 ## 🚀 Features
 
-- 📄 Home, About, and Contact pages
+- 📄 Home, About, Projects and Contact 
 - 🎨 Styled with Tailwind CSS utility-first framework
-- 📱 Fully responsive layout (mobile-friendly) #In Future
+- 📱 Fully responsive layout (mobile-friendly) 
 - 👤 Developer intro with photo
 - 🔗 Links to GitHub and LinkedIn
 - 📌 Sticky footer and reusable base layout
@@ -26,9 +26,6 @@ portfolio/
 │ ├── icons/
 │ └── images/
 ├── index.html
-├── about.html
-├── projects.html
-├── contact.html
 └── README.md
 ```
 
@@ -36,7 +33,7 @@ portfolio/
 
 - HTML5
 - Tailwind CSS v3
-- Responsive Design Techniques #In Future
+- Responsive Design Techniques 
 
 ## 🌐 Live Demo
 

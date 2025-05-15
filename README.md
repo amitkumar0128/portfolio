@@ -36,7 +36,7 @@ portfolio/
 
 ## 🌐 Live Demo
 
-> Coming soon
+> [https://amitkumar0128.github.io/portfolio/](https://amitkumar0128.github.io/portfolio/)
 
 ## ✍️ Author
 

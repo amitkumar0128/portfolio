@@ -13,10 +13,9 @@ This is a **personal portfolio website** built using **HTML** and **Tailwind CSS
 
 ## 🖼 Preview
 
-![home](<assets/images/Screenshot 2025-05-10 162301.png>) 
-![about](<assets/images/Screenshot 2025-05-10 162318.png>) 
-![projects](<assets/images/Screenshot 2025-05-10 162332.png>) 
-![contact](<assets/images/Screenshot 2025-05-10 162343.png>)  
+![home](<assets/images/Screenshot 2025-05-15 190949.png>) 
+![about](<assets/images/Screenshot 2025-05-15 191010.png>) 
+![projects](<assets/images/Screenshot 2025-05-15 191023.png>) 
 
 ## 📁 Project Structure
 
